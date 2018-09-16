@@ -11,3 +11,6 @@ for n in range(U,L+1):
         temp//=10
     if sum==n:
         print n
+        break
+else:
+    print "No armstrong number"

@@ -1,4 +1,4 @@
-n=int(raw_input())
+x=int(raw_input())
 for i in range(1,5):
-	mul=n*i
+	mul=x*i
 	print(mul)

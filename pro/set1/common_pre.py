@@ -13,5 +13,8 @@ def ComPrefix( a):
     return pref
 if __name__ == "__main__": 
     t = int(input())
-    arr = list(map(str, input().split())) 
+    arr=[]
+    for i in range(t):
+        arr_n = input()
+        arr.append(arr_n)
     print(ComPrefix(arr)) 
